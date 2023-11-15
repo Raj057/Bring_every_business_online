@@ -1,0 +1,74 @@
+.bg-danger{
+    background-color: chartreuse !important;
+}
+.name{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+.text-center text-white p-2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+.text-center text-muted ml-5{
+    color:aliceblue;
+}
+
+.bg-secondary{
+    background-color: #191970 !important;
+}
+.nav-link:hover{
+    background-color: #dc918d;
+}
+.aboutUs{
+    background-color: #342048;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding: 40px;
+}
+
+.snacksbar{
+    background-color:#cd16f2;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    height: max-content;
+
+}
+.snacks{
+    width: 300px;
+    margin: 10px;
+}
+
+.shakesbar{
+    background-color: cadetblue;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: max-content;
+}
+
+.table td {
+    text-align: center;
+    } 
+
+.table tr {
+    text-align: center;
+} 
+
+.carousel .carousel-inner{
+    height:500px
+}
+.carousel-inner .carousel-item img{
+    min-height:200px;
+    object-fit:cover
+}
+
+@media(max-width:768px){
+    .carousel .carousel-inner{
+        height:auto
+    }
+}
+
+.contactUs{
+    background-color: aquamarine;
+}
